@@ -181,10 +181,30 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Images\Pr1.jpg" />
+    <Resource Include="Images\Pr10.jpg" />
+    <Resource Include="Images\Pr11.jpg" />
+    <Resource Include="Images\Pr12.jpg" />
+    <Resource Include="Images\Pr2.jpg" />
+    <Resource Include="Images\Pr3.jpg" />
+    <Resource Include="Images\Pr4.jpg" />
+    <Resource Include="Images\Pr5.jpg" />
+    <Resource Include="Images\Pr6.jpg" />
+    <Resource Include="Images\Pr7.jpg" />
+    <Resource Include="Images\Pr8.jpg" />
+    <Resource Include="Images\Pr9.jpg" />
+    <Resource Include="Images\KL1.jpg" />
+    <Resource Include="Images\KL2.jpg" />
+    <Resource Include="Images\KL3.jpg" />
+    <Resource Include="Images\KL4.jpg" />
+    <Resource Include="Images\KL5.jpg" />
+    <Resource Include="Images\KL6.jpg" />
+    <Resource Include="Images\KL7.jpg" />
     <Resource Include="Icon\Logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
