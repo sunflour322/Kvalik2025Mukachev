@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67ab7cc86d1446d7ad599ac1af6ac9bc" Name="Diagram1">
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Direction_Service" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Master" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Qualification" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Record" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Review" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Role" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Service" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.Type_Service" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kvalik2025MukachevModel.User" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Service_Direction_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Master_Qualification" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Record_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Record_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Record_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Review_Record" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Kvalik2025MukachevModel.FK_Service_Type_Service" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
